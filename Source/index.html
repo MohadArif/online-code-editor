@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--Made By Abhay557--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Code Editor</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta name="description" content="HTML &amp; CSS editor with iframe tag and jQuery">
+  	<meta name="author" content="@silvestrevivo">
+  	<meta keywords="text editor html css iframe jquery">
+  	<!-- <meta name="generator" content="Bootstrap-3.3.7"> -->
+  	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- Bootstrap -->
+    <link SameSite="None Secure" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link SameSite="None Secure" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <script SameSite="None Secure" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Custom Fonts/Design -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <div class="clearfix container-fluid">
+      <div class="row clearfix-row">
+        <div class="wrap col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <h1 class='animated bounceInDown ce-title'>Code Editor</h1>
+          <form class="animated fadeIn">
+            <!-- HTML input section -->
+            <label for="html">HTML<i class="fa fa-html5" aria-hidden="true"></i></label><br>
+            <textarea name="html" rows="12" id="html"></textarea><br><br>
+            <!-- CSS input section -->
+            <label for="css">CSS<i class="fa fa-css3" aria-hidden="true"></i></label><br>
+            <textarea name="css" rows="12" id="css"></textarea><br><br>
+          </form>
+          <footer><small>Developed by <a href="https://github.com/Abhay557" target="_blank">Md Arif</a></small></footer>
+        </div>
+        <div class="output col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 no-side-padding">
+          <iframe src="" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jQuery_v3.1.0.js"></script>
+    <!-- Project JavaScript File -->
+    <script src="js/main.js">
+    </script>
+  </body>
+</html>

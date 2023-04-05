@@ -1,0 +1,82 @@
+.clearfix{
+  min-height: 100vh;
+}
+
+.clearfix-row{
+  min-height: 100vh;
+}
+
+.wrap{
+  background-color: #4a626a;
+}
+
+h1{
+  font-family: 'ubuntu', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.ce-title{
+  margin-top: 1.75em;
+}
+
+label{
+  font-family: 'ubuntu', sans-serif;
+  color: white;
+}
+
+label i{
+  margin-left: 5px;
+}
+
+textarea{
+  width: 100%;
+  resize: none;
+  border-radius: 8px;
+  margin-top: 5px;
+  border: 2px solid #b0cad2;
+  padding: 10px;
+  box-sizing: border-box;
+  -moz-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .7);
+  -webkit-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .7);
+  box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .7);
+  font-family: 'PT Mono', monospace;
+  color: #404f54;
+  background-color: rgba(0, 0, 0, .2);
+  color: white;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Verdana', sans-serif;
+}
+
+footer a{
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: #c9dbe1;
+}
+
+iframe{
+  -moz-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .3);
+  -webkit-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .3);
+  box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .3);
+}
+.no-side-padding{
+  padding: 0 !important;
+}
